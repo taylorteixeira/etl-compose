@@ -1,0 +1,17 @@
+[project]
+name = "projeto-etl-satc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-core>=1.31.0",
+    "azure-identity>=1.19.0",
+    "azure-storage-file-datalake>=12.17.0",
+    "pandas>=2.2.3",
+    "pymongo>=4.10.1",
+    "pyodbc>=5.2.0",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.7.0",
+    "sqlalchemy>=2.0.36",
+]
